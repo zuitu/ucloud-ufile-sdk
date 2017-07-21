@@ -1,12 +1,12 @@
 {
-    "name": "xujif/ucloud-ufile-sdk",
-    "description": "ucloud ufilesdk base on rest",
+    "name": "xujif/ufile-sdk",
+    "description": "ufilesdk base on rest",
     "license": "MIT",
     "keywords": ["ucloud ufile sdk"],
     "authors": [
         {
-            "name": "xujif",
-            "email": "i@xujif.com"
+            "name": "zuitu",
+            "email": "zuitu@foxmail.com"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xujif\\UcloudUfileSdk\\": "src/"
+            "zuitu\\UfileSdk\\": "src/"
         }
     },
     "autoload-dev": {
