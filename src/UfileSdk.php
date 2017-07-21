@@ -1,5 +1,5 @@
 <?php
-namespace Xujif\UcloudUfileSdk;
+namespace zuitu\UcloudUfileSdk;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlHandler;
