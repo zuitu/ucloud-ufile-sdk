@@ -1,6 +1,6 @@
 <?php
 
-use Xujif\UcloudUfileSdk\UfileSdk;
+use Zuitu\UfileSDK\UfileSDK;
 
 function dd()
 {
@@ -18,7 +18,7 @@ class sdkTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->sdk = new UfileSdk('storage321', '***', '*****');
+        $this->sdk = new UfileSDK('storage321', '***', '*****');
     }
 
     public function testExists()
