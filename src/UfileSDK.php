@@ -77,6 +77,7 @@ class UfileSDK
 
     public function put($key_name, $contents, $headers = array())
     {
+        $headers = [];
         $resp = $this->httpClient->request('PUT', $key_name, [
             'headers' => $headers,
             'body' => $contents]);
